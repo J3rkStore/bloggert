@@ -100,3 +100,18 @@ body {
   background-color: var(--amethyst);
   padding: 3px;
 }
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  border: #ec764455;
+  border-style:solid
+}
+
+.card {
+  background-color: #916cad98;
+}
+
+.comment-text {
+  font-size: larger;
+}
