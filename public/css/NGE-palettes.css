@@ -1,0 +1,97 @@
+/* https://www.reddit.com/r/evangelion/comments/10erdhi/evangelion_color_palettes_from_weeb1984/
+*/
+
+:root {
+    --languid-lavendar: #e1d6f8;
+    --lapis-lazuli: #25629B;
+    --periwinkle-crayola: #cdd3f4;
+    --dark-cornflower-blue: #03387d;
+    --royal-blue-dark: #052a6a;
+    --bg-grad-2: 0deg, var(--lapis-lazuli), var(--periwinkle-crayola), var(--dark-cornflower-blue), var(--royal-blue-dark);
+}
+
+:root {
+    --bg-grad: 0deg, #569fa5, #844fa7, #453d61, #000000, #000000, #453d61, #844fa7, #569fa5;
+}
+
+:root {
+    --light-green: #c7fba5;
+    --green: #adf182;
+    --light-purp: #916cad;
+    --purp: #523874;
+    --orange: #dc7d68;
+}
+
+:root {
+    --amethyst: #995cd0;
+    --worm: #8edf5f;
+    --mandarin: #ec7744;
+    --plump-purp: #5549b7;
+    --dark-purp: #201d30;
+}
+
+/* below copied using https://imagecolorpicker.com/
+*/
+
+:root {
+    --copper-rust: #894554;
+--apple-blossom: #af3c46;
+--tamarind: #240f20;
+--victoria: #54427b;
+--buccaneer: #652a39;
+--valhalla: #30184d;
+--butterfly-bush: #5c4a9c;
+--dusty-gray: #999797;
+--scorpion: #5f5859;
+}
+
+:root {
+    --raw-sienna: #d37b4f;
+--saddle: #552724;
+--waikawa-gray: #60719a;
+--cold-purple: #a6acde;
+--medium-carmine: #a44d32;
+--moon-raker: #c1c8f5;
+--rangoon-green: #14120f;
+--trout: #4c4f67;
+--shuttle-gray: #626c79;
+}
+
+:root {
+    --astronaut: #2f3577;
+--pampas: #f0ebe9;
+--bouquet: #a37fa0;
+--terracotta: #e96f66;
+--butterfly-bush: #66558c;
+--cold-purple: #c1a9d6;
+--nutmeg: #88362b;
+--finn: #66304a;
+--san-marino: #4464b4;
+}
+
+:root {
+    --pigeon-post: #aec5d8;
+--link-water: #edf4fb;
+--snuff: #d4cce3;
+--iceberg: #d4edf3;
+--edward: #99a3a3;
+--cape-cod: #484c4d;
+--nevada: #6b6f70;
+--rolling-stone: #7c8489;
+--manatee: #8d939f;
+--mid-gray: #646467;
+}
+
+:root {
+    --ship-cove: #769dba;
+--mischka: #dad8e4;
+--baltic-sea: #2a2931;
+--fiord: #4b5771;
+--spun-pearl: #aaabba;
+--fuscous-gray: #515048;
+--powder-blue: #aed6e2;
+--kashmir-blue: #526890;
+--san-juan: #324f6e;
+--flush-mahogany: #cb413d;
+}
+
