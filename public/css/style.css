@@ -34,6 +34,10 @@ h1 {
   text-decoration: none;
 }
 
+h2, h3 {
+  background:linear-gradient(to right, #9a5cd0b9, #916cad00);
+}
+
 a {
   text-decoration: none;
 }
@@ -51,6 +55,15 @@ body {
   position: relative;
   margin: 20px 20px 20px 20px;
   margin-top: 30px;
+}
+
+textarea {
+  max-width: 1500px;
+  min-width: 100px;
+  width: 600px;
+  height: 200px;
+  background:linear-gradient(to right, #000000b9, #34343400);
+  color: white;
 }
 
 .worm-green {
@@ -88,15 +101,29 @@ body {
   text-decoration: none;
 }
 
-.dollar-amount {
-  color: var(--dark-purp);
-  font-weight: bold;
-  margin-left: -5px;
-}
-
 .post {
   max-width: 400px;
   margin-top: 40px;
   background-color: var(--amethyst);
   padding: 3px;
+}
+
+.submit-button {
+  background-color:#bc8ce1;
+  cursor: pointer;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  border: #ec764455;
+  border-style:solid
+}
+
+.card {
+  background-color: #916cad;
+}
+
+.comment-text {
+  font-size: larger;
 }

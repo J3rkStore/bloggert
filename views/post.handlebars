@@ -9,7 +9,7 @@
   <h3>add a comment:</h3>
   <form class='form new-comment-form'>
     <div class='form-group'>
-      <label for='comment-name'>comment:</label>
+      <label for='comment-name'></label>
       <textarea
         class='form-input comment-text'
         id='comment-name'
@@ -17,7 +17,7 @@
       ></textarea>
     </div>
     <div class='form-group'>
-      <button type='submit' class='btn submit-comment'>Create</button>
+      <button type='submit' class='btn submit-button'>Submit comment</button>
     </div>
   </form>
   <div>
@@ -29,13 +29,15 @@
   <div class='comment-list'>
     <h3>comments:</h3>
     {{#each comments as |comment|}}
-      <p>{{comment.description}}
-        by
-        {{comment.user.name}},
-        {{comment.user_id.name}},
-        {{comment.user_id}}
-        on
-        {{comment.date_created}}</p>
+      <section class='card'>
+        <p class='comment-text'>{{comment.description}}</p>
+        <p>
+          by
+          {{comment.user.name}}
+          on
+          {{comment.date_created}}
+        </p>
+      </section>
     {{/each}}
   </div>
 {{/if}}
