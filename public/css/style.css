@@ -70,21 +70,6 @@ textarea {
   color: var(--worm);
 }
 
-/* .no-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: var(--worm);
-  text-decoration: none;
-  font-size: 100%;
-} */
-
-/* .no-button:hover {
-  color: var(--dark-purp);
-  text-decoration: none;
-} */
-
 .g-button {
   background: none;
   border: none;
@@ -126,4 +111,51 @@ textarea {
 
 .comment-text {
   font-size: larger;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-size: larger;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-row {
+  display: flex;
+}
+
+.profile-link:hover {
+  color:#c9c4c4d6;
+}
+
+.links {
+  display: flex;
+}
+
+.link-card {
+  height: 30px;
+  width: 30px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  margin-left: 20px;
+  color: #ffffff00;
+}
+
+.link-card:hover {
+  opacity: 1;
+
+}
+
+.github {
+  background-image: url(https://raw.githubusercontent.com/J3rkStore/reactoringo/3360e1134a8c29a693d023ee4c3922dee63742b9/assets/github-logo/github-mark-white.svg);
+
+}
+
+.linkedin {
+  background-image: url(https://github.com/J3rkStore/reactoringo/blob/main/assets/linkedin-logo/LI-In-Bug.png?raw=true);
 }
