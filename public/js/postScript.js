@@ -28,6 +28,26 @@ const newCommentHandler = async (event) => {
   }
 };
 
+const delCommentButtonHandler = async (event) => {
+  if (event.target.hasAttribute('data-id')) {
+    const id = event.target.getAttribute('data-id');
+
+    const response = await fetch(`/api/comments/${id}`, {
+      method: 'DELETE',
+    });
+
+    if (response.ok) {
+      document.location.replace('/profile');
+    } else {
+      alert('Failed to delete comment');
+    }
+  }
+};
+
 document
   .querySelector('.new-comment-form')
   .addEventListener('submit', newCommentHandler);
+
+document
+  .querySelector('.comment-list')
+  .addEventListener('click', delCommentButtonHandler);
