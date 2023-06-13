@@ -36,7 +36,13 @@
           {{comment.user.name}}
           on
           {{comment.date_created}}
+          comment id
+          {{comment.id}}
         </p>
+        <button
+          class='btn submit-button'
+          data-id='{{comment.id}}'
+        >DELETE</button>
       </section>
     {{/each}}
   </div>
