@@ -38,7 +38,9 @@ const delCommentButtonHandler = async (event) => {
       console.log('reloading post/', post_id);
       document.location.replace(`/post/${post_id}`);
     } else {
-      alert('Failed to delete comment');
+      alert(
+        "Failed to delete comment.  You may not delete someone else's comment"
+      );
     }
   }
 };
