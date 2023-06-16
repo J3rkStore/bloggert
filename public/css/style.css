@@ -42,6 +42,11 @@ a {
   text-decoration: none;
 }
 
+.text-background {
+  text-shadow: rgba(239, 238, 234, 0.666) 1px 0 10px;
+  font-weight: bold;
+}
+
 
 header, .project:not(:last-child) {
   border-bottom: 5px solid var(--mandarin);
@@ -53,7 +58,7 @@ body {
   background: linear-gradient(var(--bg-grad3));
   background-size: 100vw 150vh;
   position: relative;
-  margin: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
   margin-top: 30px;
 }
 
@@ -64,11 +69,16 @@ body {
 
 textarea {
   max-width: 1500px;
-  min-width: 100px;
-  width: 600px;
+  /* min-width: 100px;
+  width: 600px; */
   height: 200px;
   background:linear-gradient(to right, #000000b9, #34343400);
   color: white;
+}
+
+.body-group {
+  display: flex;
+  flex-direction: column;
 }
 
 .worm-green {
@@ -92,7 +102,7 @@ textarea {
 }
 
 .post {
-  max-width: 400px;
+  max-width: 1500px;
   margin-top: 40px;
   background-color: var(--amethyst);
   padding: 3px;
@@ -116,6 +126,10 @@ textarea {
 
 .comment-text {
   font-size: larger;
+}
+
+.comment-data {
+  font-size: smaller;
 }
 
 footer {
@@ -163,4 +177,22 @@ footer {
 
 .linkedin {
   background-image: url(https://github.com/J3rkStore/reactoringo/blob/main/assets/linkedin-logo/LI-In-Bug.png?raw=true);
+}
+
+/* @media screen and (max-width: 800px) {
+  textarea {
+    width: 400px;
+  }
+} */
+
+@media screen and (max-width: 500px) {
+  /* textarea {
+    width: 200px;
+  } */
+  h1 {
+    font-size: 30px;
+  }
+  body {
+    margin: 3px 3px 3px 3px;
+  }
 }
