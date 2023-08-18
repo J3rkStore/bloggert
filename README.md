@@ -7,6 +7,8 @@
 ## Description
 web blog where anyone can create a user account to make posts and comments.  Bare-bones and to the point alternative for social media's malicious algorythms
 
+![image](https://github.com/J3rkStore/bloggert/assets/59859758/ed4a011e-27f2-4e66-996f-8d2c59049fc0)
+
 
 ## Table of Contents 
 
