@@ -5,7 +5,7 @@
 
 
 ## Description
-web blog where anyone can create a user account to make posts and comments
+web blog where anyone can create a user account to make posts and comments.  Bare-bones and to the point alternative for social media's malicious algorythms
 
 
 ## Table of Contents 
